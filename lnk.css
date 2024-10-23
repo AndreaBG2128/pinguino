@@ -1,0 +1,148 @@
+body {
+    background-color: #cce7e8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .penguin {
+    position: relative;
+    width: 180px;
+    height: 320px;
+  }
+  
+  .penguin-head {
+    position: relative;
+    width: 150px;
+    height: 120px;
+    background-color: black;
+    border-radius: 70% 70% 60% 60%; /* Cabeza más natural */
+    margin: 0 auto;
+    z-index: 2;
+    top: 0;
+  }
+  
+  .face {
+    position: absolute;
+    width: 110px;
+    height: 90px;
+    background-color: white;
+    border-radius: 60% 60% 50% 50%;
+    top: 15px;
+    left: 20px;
+  }
+  
+  .eye {
+    width: 22px;
+    height: 22px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+  }
+  
+  .left-eye {
+    top: 25px;
+    left: 10px;
+  }
+  
+  .right-eye {
+    top: 25px;
+    right: 10px;
+  }
+  
+  .eye-inner {
+    width: 10px;
+    height: 12px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+  }
+  
+  .cheek {
+    width: 15px;
+    height: 15px;
+    background-color: pink;
+    border-radius: 50%;
+    position: absolute;
+  }
+  
+  .left-cheek {
+    top: 55px;
+    left: 10px;
+  }
+  
+  .right-cheek {
+    top: 55px;
+    right: 10px;
+  }
+  
+  .beak {
+    width: 25px;
+    height: 15px;
+    background-color: orange;
+    border-radius: 50%;
+    position: absolute;
+    top: 55px;
+    left: 43px;
+  }
+  
+  .penguin-body {
+    width: 160px;
+    height: 220px;
+    background-color: black;
+    border-radius: 60% 60% 50% 50%;
+    position: relative;
+    margin: 0 auto;
+    top: -40px;
+    z-index: 1;
+  }
+  
+  .belly {
+    width: 120px;
+    height: 160px;
+    background-color: white;
+    border-radius: 60% 60% 50% 50%;
+    position: absolute;
+    top: 40px;
+    left: 20px;
+  }
+  
+  .wing {
+    width: 50px;
+    height: 100px;
+    background-color: black;
+    border-radius: 60% 50% 60% 40%;
+    position: absolute;
+    top: 30px;
+  }
+  
+  .left-wing {
+    left: -3px;
+  }
+  
+  .right-wing {
+    right: -3px;
+  }
+  
+  .penguin-feet {
+    position: absolute;
+    bottom: 0;
+    left: 35px;
+    display: flex;
+    justify-content: space-between;
+    width: 90px;
+  }
+  
+  .foot {
+    width: 50px;
+    height: 20px;
+    background-color: orange;
+    border-radius: 50%;
+    left: 10%;
+    position: relative;
+  }
+  
